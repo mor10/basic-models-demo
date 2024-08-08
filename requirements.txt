@@ -1,3 +1,4 @@
+keyrings.alt
 mistralai
 OpenAI
 python-dotenv
