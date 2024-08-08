@@ -1,3 +1,4 @@
+mistralai
 OpenAI
 python-dotenv
 requests
