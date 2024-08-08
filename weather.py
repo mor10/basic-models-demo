@@ -1,18 +1,18 @@
-from tools.owm import get_weather_by_location
+omfrom tools.owm import get_weather_by_location
 from tools.get_location import get_location_string
 from tools.analyze_weather import analyze_weather
 
 
 def main():
     # Display a welcome message
-    print("Welcome to the Basic Terminal App!")
+    print("Welcome to the Weather Recommendation App!")
 
-    # Ask for the user's location
-    question = "Please enter your location to get the current weather:"
+    # Ask for the user's weather-related query
+    question = "Please enter your weather-related question. Remember to add your location:"
     print(question)
 
     # Allow the user to type in an answer
-    request = input("Your location: ")
+    request = input("Your question: ")
 
     # Get the location string
     location_string = get_location_string(request)
