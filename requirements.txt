@@ -1,5 +1,4 @@
-keyrings.alt
+azure-ai-inference
 mistralai
 OpenAI
-python-dotenv
 requests
