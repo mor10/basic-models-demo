@@ -5,7 +5,7 @@ from azure.core.credentials import AzureKeyCredential
 
 token = os.environ["GITHUB_TOKEN"]
 endpoint = "https://models.inference.ai.azure.com"
-model_name = "gpt-4o-mini"
+model_name = "Mistral-small"
 
 
 def get_location_string(request):
@@ -25,7 +25,7 @@ def get_location_string(request):
         ],
         model=model_name,
         temperature=0.7,
-        max_tokens=300,
+        max_tokens=100,
         top_p=1.
     )
 

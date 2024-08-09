@@ -19,7 +19,6 @@ def main():
 
     # Get the weather by location
     weather_data = get_weather_by_location(location_string)
-    print(weather_data)
 
     # Analyze the weather based on the request
     analysis = analyze_weather(request, weather_data)
